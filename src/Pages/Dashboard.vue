@@ -8,7 +8,7 @@ import Button from '../Components/Button.vue';
     <LayoutAuthenticated>
         <main>
             <h1>Hello, This is dashboard</h1>
-            <Button>This is Test Button</Button>
+            <Button href="https://www.google.com">This is Test Button</Button>
         </main>
     </LayoutAuthenticated>
 </template>
