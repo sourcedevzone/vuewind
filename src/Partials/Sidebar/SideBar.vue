@@ -1,3 +1,8 @@
+<script setup>
+import Button from '../../Components/Button.vue';
+defineProps(["sidebarOpen"]);
+</script>
+
 <template>
   <aside aria-label="side bar" aria-orientation="vertical">
     <!-- Sidebar backdrop for mobile only -->
@@ -11,6 +16,3 @@
     </div>
   </aside>
 </template>
-<script setup>
-defineProps(["sidebarOpen"]);
-</script>
