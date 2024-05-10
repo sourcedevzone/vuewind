@@ -87,7 +87,7 @@ export const getButtonColor = (color, isOutlined, hasHover, isActive = false) =>
         base.push(isOutlinedProcessed ? colors.text[color] : colors.bg[color])
     }
 
-    if(hover) {
+    if(hasHover) {
         base.push(isOutlinedProcessed ? colors.outlineHover[color] : colors.bgHover[color])
     }
 
